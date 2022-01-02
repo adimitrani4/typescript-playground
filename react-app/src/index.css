@@ -1,0 +1,17 @@
+h1{
+    color: rgb(136, 10, 240);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body
+{
+    background-color: antiquewhite;
+}
+.logic{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.movieInfo{
+    font-size: small;
+}
