@@ -11,8 +11,6 @@ COPY package-lock.json .
 # use the value to set the ENV var default
 ENV env_user_name=default
 
-#RUN npm install
-
 #the node server is running on port 8080 
 EXPOSE 8080
 
