@@ -14,18 +14,6 @@ app.use((req, res: Response, next: NextFunction) => {
     next();
   });
 
-// app.get('/', (_req, res) => {
-//     res.send(`Hello ${process.env.env_user_name}!`)
-//   })
-
-// app.get('/hello', (_req, res) => {
-//     res.send(`Hello World!`)
-//   })
-
-// app.get('/helloTo/:userName', function (req, res) {
-//     res.send(`Hello ${req.params.userName}!`)
-//   })
-
 app.get('/movie/:movieName', (req: Request, res: Response) =>{
   const selectedMovie: Movie | undefined = movies.find(movie => movie.title === req.params.movieName);
   res.send(selectedMovie);
